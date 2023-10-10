@@ -1,0 +1,1012 @@
+@media (max-width: 1296px) {
+    .container {
+        max-width: 970px;
+    }
+
+    .wrapp-header__logo-svg-img {
+        width: 170px;
+    }
+
+    .header-menu__title-text {
+        font-size: 10px;
+    } 
+
+    .wrapp-hero__title-text {
+        font-size: 26px;
+    }
+
+    .wrapp-hero__title-link {
+        font-size: 26px;
+    }
+
+    .wrapp-hero__title-info {
+        font-size: 18px;
+    }
+
+    .wrapp-hero__item {
+        width: 500px;
+        height: 400px;
+    }
+
+    .wrapp-video__content-text {
+        font-size: 16px;
+    }
+
+    .wrapp-video__content-info {
+        font-size: 16px;
+    }
+
+    .video-item {
+        width: 700px;
+    }
+
+    .content-button {
+        padding: 5px 30px;
+    }
+
+    .content-button__text {
+        font-size: 15px;
+    }
+
+    .wrapp-robotic-therapy__title-text {
+        font-size: 28px;
+    }
+
+   .robotic-therapy-img {
+    width: 400px;
+   }
+
+   .accordion {
+    font-size: 19px;
+    padding: 25px;
+   }
+
+   .panel-info {
+    font-size: 13px;
+   }
+
+   .panel-text {
+    font-size: 13px;
+    padding: 25px 0 0 0 ;
+   }
+
+   .accordion-button {
+    padding: 5px 30px;
+   }
+
+   .accordion-button__text {
+    font-size: 15px;
+   }
+
+   .inMotion__img {
+    width: 300px;
+   }
+
+   .inMotion__img {
+    width: 350px;
+   }
+
+   .wrapp-inMotion__title-text {
+    font-size: 23px;
+   }
+    
+   .wrapp-inMotion__title-info {
+    font-size: 12px;
+    padding: 25px 0 0 0 ;
+   }
+
+   .slider-text {
+    font-size: 17px;
+   }
+
+   .slider-info {
+    font-size: 17px;
+   }
+
+   .slider-title {
+    padding: 76px 0;
+   }
+
+   .slider-button {
+    padding: 5px 35px;
+   }
+
+   .slider-button-text {
+    font-size: 12px;
+   }
+
+   .wrapp-bottom_sliders {
+    padding: 74px 80px 157px 80px;
+   }
+    
+   .bottom-sliders_title {
+    font-size: 17px;
+   }
+
+   .bottom__img {
+    width: 75px;
+    bottom: 79px;
+   } 
+
+   .bionik-content-firstBlock-title-link {
+    font-size: 11px;
+   }
+   .bionik-content-firstBlock-text-link {
+    font-size: 11px;
+   }
+
+   .thirdBlock-logo {
+    width: 120px;
+   }
+    
+   .footer-bionik-content-thirdBlock {
+    padding: 10px 0 0 10px;
+   }
+
+   .bionik-content-thirdBlock-title-link {
+    font-size: 12px;
+   }
+
+   .bionik-content-thirdBlock-text-link {
+    font-size: 11px;
+   }
+
+   .bionik-content-thirdBlock-info {
+    font-size: 11px;
+   }
+
+   .footer-bottom__text {
+    font-size: 10px;
+   }
+
+    .bottom__item-link-svg {
+     width: 20px;
+    }
+
+}
+
+@media (max-width: 992px) {
+    body.lock {
+        overflow: hidden;
+    }
+    .container {
+        max-width: 750px;
+    }
+
+    .wrapp-header__logo-svg-img {
+        width: 100px;
+        position: relative;
+        z-index: 6;
+    }
+
+    .header-menus {
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #04bdf6;
+        padding: 70px 0 0 0;
+        z-index: 4;
+        transition: all 0.3s ease 0s;
+        overflow: auto;
+    }
+
+    .header-menus.active {
+        top: 0;
+    }
+
+
+    .header-menus__burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        z-index: 5;
+    }
+    .header-menus__burger span {
+        position: absolute;
+        background-color: #005FAD;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        top: 9px;
+        transition: all 0.3s ease 0s;
+    } 
+    .header-menus__burger:before,
+    .header-menus__burger:after {
+        content: ' ';
+        background-color: #005FAD;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        transition: all 0.3s ease 0s;
+    }
+
+    .header-menus__burger:before {
+        top: 0;
+    }
+
+    .header-menus__burger:after {
+        bottom: 0;
+    }
+
+    .header-menus__burger.active span {
+        transform: scale(0);
+    }
+
+    .header-menus__burger.active:before {
+        transform: rotate(45deg);
+        top: 9px;
+    }
+
+    .header-menus__burger.active:after {
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+
+    .wrapp-header__menu {
+        display: block;
+        float: right;
+        margin: 0 100px 0 0;
+    }
+
+    .header-menu__title-text {
+        font-size: 16px;
+        color: #005FAD;
+    }
+
+    .accordion.active:after {
+        display: none;
+    }
+
+
+
+
+
+
+    .wrapp-hero__title-text {
+        font-size: 19px;
+    }
+
+    .wrapp-hero__title-link {
+        font-size: 19px;
+    }
+
+    .wrapp-hero__title-info {
+        font-size: 12px;
+    }
+
+    .wrapp-hero__item {
+        width: 400px;
+        height: 300px;
+    }
+
+    .wrapp-video__content-text {
+        font-size: 13px;
+    }
+
+    .wrapp-video__content-info {
+        font-size: 13px;
+    }
+
+    .video-item {
+        width: 500px;
+    }
+
+    .content-button {
+        padding: 2px 30px;
+    }
+
+    .content-button__text {
+        font-size: 11px;
+    }
+
+    .wrapp-robotic-therapy__title-text {
+        font-size: 18px;
+    }
+
+   .robotic-therapy-img {
+    width: 300px;
+   }
+
+   .accordion {
+    font-size: 16px;
+    padding: 15px 10px;
+   }
+
+   .panel-info {
+    font-size: 10px;
+   }
+
+   .panel-text {
+    font-size: 10px;
+    padding: 20px 0 0 0 ;
+   }
+
+   .accordion-button {
+    padding: 2px 30px;
+   }
+
+   .accordion-button__text {
+    font-size: 11px;
+   }
+
+   .inMotion__img {
+    width: 250px;
+   }
+
+   .wrapp-inMotion__title-text {
+    font-size: 19px;
+   }
+    
+   .wrapp-inMotion__title-info {
+    font-size: 10px;
+    padding: 11px 0 0 0 ;
+   }
+
+   .wrapp-inMotion__title {
+    padding: 22px 5px;
+   }
+
+   .slider-text {
+    font-size: 14px;
+   }
+
+   .slider-info {
+    font-size: 14px;
+   }
+
+   .slider-title {
+    padding: 76px 0;
+   }
+
+   .slider-button {
+    padding: 2px 30px;
+   }
+
+   .slider-button-text {
+    font-size: 10px;
+   }
+
+   .wrapp-bottom_sliders {
+    padding: 74px 80px 157px 80px;
+   }
+    
+   .bottom-sliders_title {
+    font-size: 14px;
+   }
+
+   .bottom__img {
+    width: 55px;
+    bottom: 58px;
+   } 
+
+   .bionik-content-firstBlock-title-link {
+    font-size: 9px;
+   }
+   .bionik-content-firstBlock-text-link {
+    font-size: 9px;
+   }
+
+   .thirdBlock-logo {
+    width: 100px;
+   }
+    
+   .footer-bionik-content-thirdBlock {
+    padding: 10px 25px 0 10px;
+   }
+
+   .bionik-content-thirdBlock-title-link {
+    font-size: 10px;
+   }
+
+   .bionik-content-thirdBlock-text-link {
+    font-size: 10px;
+   }
+
+   .bionik-content-thirdBlock-info {
+    font-size: 10px;
+   }
+
+   .footer-bottom__text {
+    font-size: 10px;
+   }
+
+   .footer-bottom__item  {
+    gap: 5px;
+   }
+
+    .bottom__item-link-svg {
+     width: 15px;
+    }
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+
+    .body.lock {
+        overflow: hidden;
+    }
+    .container {
+        max-width: 590px;
+    }
+
+    .wrapp-header__logo-svg-img {
+        width: 75px;
+        position: relative;
+        z-index: 6;
+    }
+
+    .header-menus {
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #04bdf6;
+        padding: 70px 0 0 0;
+        z-index: 4;
+        transition: all 0.3s ease 0s;
+        overflow: auto;
+    }
+
+    .header-menus.active {
+        top: 0;
+    }
+
+
+    .header-menus__burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        z-index: 5;
+    }
+    .header-menus__burger span {
+        position: absolute;
+        background-color: #005FAD;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        top: 9px;
+        transition: all 0.3s ease 0s;
+    } 
+    .header-menus__burger:before,
+    .header-menus__burger:after {
+        content: ' ';
+        background-color: #005FAD;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        transition: all 0.3s ease 0s;
+    }
+
+    .header-menus__burger:before {
+        top: 0;
+    }
+
+    .header-menus__burger:after {
+        bottom: 0;
+    }
+
+    .header-menus__burger.active span {
+        transform: scale(0);
+    }
+
+    .header-menus__burger.active:before {
+        transform: rotate(45deg);
+        top: 9px;
+    }
+
+    .header-menus__burger.active:after {
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+
+    .wrapp-header__menu {
+        display: block;
+        float: right;
+        margin: 0 100px 0 0;
+    }
+
+    .header-menu__title-text {
+        font-size: 16px;
+        color: #005FAD;
+    }
+
+    .accordion.active:after {
+        display: none;
+    }
+
+
+
+
+
+
+    .wrapp-hero__title-text {
+        font-size: 13px;
+    }
+
+    .wrapp-hero__title-link {
+        font-size: 13px;
+    }
+
+    .wrapp-hero__title-info {
+        font-size: 12px;
+    }
+
+    .wrapp-hero__item {
+        width: 200px;
+        height: 150px;
+    }
+
+    .wrapp-video__content-text {
+        font-size: 12px;
+    }
+
+    .wrapp-video__content-info {
+        font-size: 12px;
+    }
+
+    .video-item {
+        width: 300px;
+    }
+
+    .wrapp-video__content {
+        padding: 0 15px;
+    }
+
+    .wrapp-video {
+        padding: 50px 0 20px 0 ;
+    }
+
+    .wrapp-video_item {
+        padding: 58px 0 0 0;
+    }
+
+    .content-button {
+        padding: 0 20px;
+    }
+
+    .content-button__text {
+        font-size: 8px;
+    }
+
+    .wrapp-robotic-therapy__title-text {
+        font-size: 13px;
+    }
+
+   .robotic-therapy-img {
+    width: 150px;
+   }
+
+   .accordion {
+    font-size: 12px;
+    padding: 10px 5px;
+   }
+
+   .panel-info {
+    font-size: 10px;
+   }
+
+   .panel-text {
+    font-size: 10px;
+    padding: 20px 0 0 0 ;
+   }
+
+   .accordion-button {
+    padding: 0px 20px;
+   }
+
+   .accordion-button__text {
+    font-size: 9px;
+   }
+
+   .inMotion__img {
+    width: 250px;
+   }
+
+
+   .wrapp-inMotion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 50px 0 0 0 ;
+   }
+
+   .wrapp-inMotion__title-text {
+    font-size: 19px;
+   }
+    
+   .wrapp-inMotion__title-info {
+    font-size: 10px;
+    padding: 11px 0 0 0 ;
+   }
+
+   .wrapp-inMotion__title {
+    padding: 22px 5px;
+   }
+
+   .slider-text {
+    font-size: 11px;
+   }
+
+   .slider-info {
+    font-size: 11px;
+   }
+
+   .slider-title {
+    padding: 50px 0;
+   }
+
+   .slider-button {
+    padding: 0px 20px;
+   }
+
+   .slider-button-text {
+    font-size: 8px;
+   }
+
+   .wrapp-bottom_sliders {
+    padding: 74px 40px 157px 40px;
+   }
+    
+   .bottom-sliders_title {
+    font-size: 11px;
+   }
+
+   .bottom__img {
+    width: 35px;
+    bottom: 36px;
+   } 
+
+   .bionik-content-firstBlock-title-link {
+    font-size: 6px;
+   }
+   .bionik-content-firstBlock-text-link {
+    font-size: 6px;
+   }
+
+   .thirdBlock-logo {
+    width: 80px;
+   }
+
+   .bionik-content-thirdBlock-logo {
+    padding-left: 35px;
+   }
+    
+   .footer-bionik-content-thirdBlock {
+    padding: 10px 25px 0 45px;
+   }
+
+   .bionik-content-thirdBlock-title-link {
+    font-size: 8px;
+   }
+
+   .bionik-content-thirdBlock-text-link {
+    font-size: 8px;
+   }
+
+   .bionik-content-thirdBlock-info {
+    font-size: 8px;
+   }
+
+   .footer-bottom__text {
+    font-size: 7px;
+   }
+
+   .footer-bottom__item  {
+    gap: 5px;
+   }
+
+    .bottom__item-link-svg {
+     width: 10px;
+     height: 10px;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .body.lock {
+        overflow: hidden;
+    }
+    .container {
+        max-width: none;
+    }
+
+    .wrapp-header__logo-svg-img {
+        width: 75px;
+        position: relative;
+        z-index: 6;
+    }
+
+    .header-menus {
+        position: fixed;
+        top: -100%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #04bdf6;
+        padding: 70px 0 0 0;
+        z-index: 4;
+        transition: all 0.3s ease 0s;
+        overflow: auto;
+    }
+
+    .header-menus.active {
+        top: 0;
+    }
+
+
+    .header-menus__burger {
+        display: block;
+        position: relative;
+        width: 30px;
+        height: 20px;
+        z-index: 5;
+    }
+    .header-menus__burger span {
+        position: absolute;
+        background-color: #005FAD;
+        left: 0;
+        width: 100%;
+        height: 2px;
+        top: 9px;
+        transition: all 0.3s ease 0s;
+    } 
+    .header-menus__burger:before,
+    .header-menus__burger:after {
+        content: ' ';
+        background-color: #005FAD;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        transition: all 0.3s ease 0s;
+    }
+
+    .header-menus__burger:before {
+        top: 0;
+    }
+
+    .header-menus__burger:after {
+        bottom: 0;
+    }
+
+    .header-menus__burger.active span {
+        transform: scale(0);
+    }
+
+    .header-menus__burger.active:before {
+        transform: rotate(45deg);
+        top: 9px;
+    }
+
+    .header-menus__burger.active:after {
+        transform: rotate(-45deg);
+        bottom: 9px;
+    }
+
+    .wrapp-header__menu {
+        display: block;
+        float: right;
+        margin: 0 60px 0 0;
+    }
+
+    .header-menu__title-text {
+        font-size: 16px;
+        color: #005FAD;
+    }
+
+    .accordion.active:after {
+        display: none;
+    }
+
+
+
+
+
+
+    .wrapp-hero__title-text {
+        font-size: 8px;
+    }
+
+    .wrapp-hero__title-link {
+        font-size: 8px;
+    }
+
+    .wrapp-hero__title-info {
+        font-size: 7px;
+    }
+
+    .wrapp-hero__item {
+        width: 170px;
+        height: 120px;
+    }
+
+    .wrapp-video__content-text {
+        font-size: 9px;
+    }
+
+    .wrapp-video__content-info {
+        font-size: 9px;
+    }
+
+    .video-item {
+        width: 250px;
+    }
+
+    .wrapp-video__content {
+        padding: 0 15px;
+    }
+
+    .wrapp-video {
+        padding: 50px 0 20px 0 ;
+    }
+
+    .wrapp-video_item {
+        padding: 58px 0 0 0;
+    }
+
+    .content-button {
+        padding: 0 20px;
+    }
+
+    .content-button__text {
+        font-size: 8px;
+    }
+
+    .wrapp-robotic-therapy__title-text {
+        font-size: 13px;
+    }
+
+   .robotic-therapy-img {
+    width: 150px;
+   }
+
+   .accordion {
+    font-size: 9px;
+    padding: 10px 5px;
+   }
+
+   .wrapp-robotic-therapy__content {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+   }
+
+   .panel-info {
+    font-size: 10px;
+   }
+
+   .panel-text {
+    font-size: 10px;
+    padding: 20px 0 0 0 ;
+   }
+
+   .accordion-button {
+    padding: 0px 20px;
+   }
+
+   .accordion-button__text {
+    font-size: 9px;
+   }
+
+   .inMotion__img {
+    width: 250px;
+   }
+
+
+   .wrapp-inMotion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 50px 0 0 0 ;
+   }
+
+   .wrapp-inMotion__title-text {
+    font-size: 19px;
+   }
+    
+   .wrapp-inMotion__title-info {
+    font-size: 10px;
+    padding: 11px 0 0 0 ;
+   }
+
+   .wrapp-inMotion__title {
+    padding: 22px 5px;
+   }
+
+   .slider-text {
+    font-size: 11px;
+   }
+
+   .slider-info {
+    font-size: 11px;
+   }
+
+   .slider-title {
+    padding: 50px 0;
+   }
+
+   .slider-button {
+    padding: 0px 20px;
+   }
+
+   .slider-button-text {
+    font-size: 8px;
+   }
+
+   .wrapp-bottom_sliders {
+    padding: 74px 40px 157px 40px;
+   }
+    
+   .bottom-sliders_title {
+    font-size: 11px;
+   }
+
+   .bottom__img {
+    width: 35px;
+    bottom: 36px;
+   } 
+
+   .bionik-content-firstBlock-title-link {
+    font-size: 6px;
+   }
+   .bionik-content-firstBlock-text-link {
+    font-size: 6px;
+   }
+
+   .thirdBlock-logo {
+    width: 80px;
+   }
+
+   .bionik-content-thirdBlock-logo {
+    padding-left: 35px;
+   }
+    
+   .footer-bionik-content-thirdBlock {
+    padding: 10px 25px 0 45px;
+   }
+
+   .bionik-content-thirdBlock-title-link {
+    font-size: 8px;
+   }
+
+   .bionik-content-thirdBlock-text-link {
+    font-size: 8px;
+   }
+
+   .bionik-content-thirdBlock-info {
+    font-size: 8px;
+   }
+
+   .footer-bottom__text {
+    font-size: 7px;
+   }
+
+   .footer-bottom__item  {
+    gap: 5px;
+   }
+
+    .bottom__item-link-svg {
+     width: 10px;
+     height: 10px;
+    }
+
+
+}
