@@ -33,7 +33,7 @@
 
 html,body{
 	height: 100%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans','Univia Pro', sans-serif;
 }
 
 
@@ -45,7 +45,7 @@ html,body{
     width: 100%;
     max-width: 1296px;
     margin: auto;
-    padding: 0 72px 0 72px;
+    padding: 0 20px;
 }
 
 .wrapp-header {
