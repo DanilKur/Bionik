@@ -264,31 +264,41 @@
 
 
 
+    .wrapp-header {
+        padding: 16px 0 16px 0 ;
+    }
 
+    .wrapp-hero {
+        display: flex;
+        flex-direction: column;
+    }
 
     .wrapp-hero__title-text {
-        font-size: 19px;
+        font-size: 22px;
+        padding: 0 100px;
     }
 
     .wrapp-hero__title-link {
-        font-size: 19px;
+        font-size: 22px;
     }
 
     .wrapp-hero__title-info {
-        font-size: 12px;
+        font-size: 22px;
+        padding: 0 100px;
     }
 
     .wrapp-hero__item {
         width: 400px;
         height: 300px;
+
     }
 
     .wrapp-video__content-text {
-        font-size: 13px;
+        font-size: 19px;
     }
 
     .wrapp-video__content-info {
-        font-size: 13px;
+        font-size: 19px;
     }
 
     .video-item {
@@ -296,15 +306,27 @@
     }
 
     .content-button {
-        padding: 2px 30px;
+        padding: 10px 30px;
     }
 
     .content-button__text {
-        font-size: 11px;
+        font-size: 16px;
+    }
+
+    .wrapp-robotic-therapy__content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .wrapp-robotic-therapy__content-accordion {
+        display: flex;
+        flex-direction: column;
     }
 
     .wrapp-robotic-therapy__title-text {
-        font-size: 18px;
+        font-size: 26px;
     }
 
    .robotic-therapy-img {
@@ -312,62 +334,75 @@
    }
 
    .accordion {
-    font-size: 16px;
+    font-size: 22px;
     padding: 15px 10px;
+   }
+   .accordion__content-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
    }
 
    .panel-info {
-    font-size: 10px;
+    font-size: 16px;
    }
 
    .panel-text {
-    font-size: 10px;
+    font-size: 16px;
     padding: 20px 0 0 0 ;
    }
 
    .accordion-button {
-    padding: 2px 30px;
+    padding: 10px 30px;
    }
 
    .accordion-button__text {
-    font-size: 11px;
+    font-size: 16px;
+   }
+
+   .wrapp-inMotion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0 0 0;
    }
 
    .inMotion__img {
-    width: 250px;
+    width: 400px;
    }
 
    .wrapp-inMotion__title-text {
-    font-size: 19px;
+    font-size: 23px;
    }
     
    .wrapp-inMotion__title-info {
-    font-size: 10px;
+    font-size: 16px;
     padding: 11px 0 0 0 ;
    }
 
    .wrapp-inMotion__title {
-    padding: 22px 5px;
+    padding: 22px 70px;
    }
 
    .slider-text {
-    font-size: 14px;
+    font-size: 18px;
    }
 
    .slider-info {
-    font-size: 14px;
+    font-size: 18px;
    }
 
    .slider-title {
-    padding: 76px 0;
+    padding: 20px 0;
    }
 
    .slider-button {
-    padding: 2px 30px;
+    padding: 10px 30px;
    }
 
    .slider-button-text {
-    font-size: 10px;
+    font-size: 16px;
    }
 
    .wrapp-bottom_sliders {
@@ -375,7 +410,7 @@
    }
     
    .bottom-sliders_title {
-    font-size: 14px;
+    font-size: 18px;
    }
 
    .bottom__img {
@@ -531,35 +566,37 @@
 
 
 
-
+    .wrapp-header {
+        padding: 16px 0 16px 0 ;
+    }
 
     .wrapp-hero__title-text {
-        font-size: 13px;
+        font-size: 16px;
     }
 
     .wrapp-hero__title-link {
-        font-size: 13px;
+        font-size: 16px;
     }
 
     .wrapp-hero__title-info {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .wrapp-hero__item {
-        width: 200px;
-        height: 150px;
+        width: 400px;
+        height: 250px;
     }
 
     .wrapp-video__content-text {
-        font-size: 12px;
+        font-size: 18px;
     }
 
     .wrapp-video__content-info {
-        font-size: 12px;
+        font-size: 18px;
     }
 
     .video-item {
-        width: 300px;
+        width: 500px;
     }
 
     .wrapp-video__content {
@@ -575,45 +612,45 @@
     }
 
     .content-button {
-        padding: 0 20px;
+        padding: 5px 20px;
     }
 
     .content-button__text {
-        font-size: 8px;
-    }
-
-    .wrapp-robotic-therapy__title-text {
         font-size: 13px;
     }
 
+    .wrapp-robotic-therapy__title-text {
+        font-size: 18px;
+    }
+
    .robotic-therapy-img {
-    width: 150px;
+    width: 250px;
    }
 
    .accordion {
-    font-size: 12px;
+    font-size: 16px;
     padding: 10px 5px;
    }
 
    .panel-info {
-    font-size: 10px;
+    font-size: 16px;
    }
 
    .panel-text {
-    font-size: 10px;
+    font-size: 16px;
     padding: 20px 0 0 0 ;
    }
 
    .accordion-button {
-    padding: 0px 20px;
+    padding: 5px 20px;
    }
 
    .accordion-button__text {
-    font-size: 9px;
+    font-size: 13px;
    }
 
    .inMotion__img {
-    width: 250px;
+    width: 350px;
    }
 
 
@@ -623,15 +660,15 @@
     align-items: center;
     flex-direction: column;
     gap: 10px;
-    padding: 50px 0 0 0 ;
+    padding: 50px 50px 0 50px ;
    }
 
    .wrapp-inMotion__title-text {
-    font-size: 19px;
+    font-size: 23px;
    }
     
    .wrapp-inMotion__title-info {
-    font-size: 10px;
+    font-size: 16px;
     padding: 11px 0 0 0 ;
    }
 
@@ -640,23 +677,23 @@
    }
 
    .slider-text {
-    font-size: 11px;
+    font-size: 16px;
    }
 
    .slider-info {
-    font-size: 11px;
+    font-size: 16px;
    }
 
    .slider-title {
-    padding: 50px 0;
+    padding: 15px 0;
    }
 
    .slider-button {
-    padding: 0px 20px;
+    padding: 5px 20px;
    }
 
    .slider-button-text {
-    font-size: 8px;
+    font-size: 13px;
    }
 
    .wrapp-bottom_sliders {
@@ -664,7 +701,7 @@
    }
     
    .bottom-sliders_title {
-    font-size: 11px;
+    font-size: 20px;
    }
 
    .bottom__img {
@@ -673,10 +710,10 @@
    } 
 
    .bionik-content-firstBlock-title-link {
-    font-size: 6px;
+    font-size: 10px;
    }
    .bionik-content-firstBlock-text-link {
-    font-size: 6px;
+    font-size: 10px;
    }
 
    .thirdBlock-logo {
@@ -692,11 +729,11 @@
    }
 
    .bionik-content-thirdBlock-title-link {
-    font-size: 8px;
+    font-size: 10px;
    }
 
    .bionik-content-thirdBlock-text-link {
-    font-size: 8px;
+    font-size: 10px;
    }
 
    .bionik-content-thirdBlock-info {
@@ -712,8 +749,8 @@
    }
 
     .bottom__item-link-svg {
-     width: 10px;
-     height: 10px;
+     width: 20px;
+     height: 20px;
     }
 }
 
@@ -820,32 +857,35 @@
 
 
     .wrapp-hero__title-text {
-        font-size: 8px;
+        font-size: 20px;
+        padding: 0;
     }
 
     .wrapp-hero__title-link {
-        font-size: 8px;
+        font-size: 20px;
+        padding: 0;
     }
 
     .wrapp-hero__title-info {
-        font-size: 7px;
+        font-size: 18px;
+        padding: 0;
     }
 
     .wrapp-hero__item {
-        width: 170px;
-        height: 120px;
+        width: 320px;
+        height: 220px;
     }
 
     .wrapp-video__content-text {
-        font-size: 9px;
+        font-size: 16px;
     }
 
     .wrapp-video__content-info {
-        font-size: 9px;
+        font-size: 16px;
     }
 
     .video-item {
-        width: 250px;
+        width: 300px;
     }
 
     .wrapp-video__content {
@@ -861,23 +901,23 @@
     }
 
     .content-button {
-        padding: 0 20px;
+        padding: 5px 20px;
     }
 
     .content-button__text {
-        font-size: 8px;
-    }
-
-    .wrapp-robotic-therapy__title-text {
         font-size: 13px;
     }
 
+    .wrapp-robotic-therapy__title-text {
+        font-size: 20px;
+    }
+
    .robotic-therapy-img {
-    width: 150px;
+    width: 250px;
    }
 
    .accordion {
-    font-size: 9px;
+    font-size: 20px;
     padding: 10px 5px;
    }
 
@@ -888,24 +928,24 @@
    }
 
    .panel-info {
-    font-size: 10px;
+    font-size: 20px;
    }
 
    .panel-text {
-    font-size: 10px;
+    font-size: 20px;
     padding: 20px 0 0 0 ;
    }
 
    .accordion-button {
-    padding: 0px 20px;
+    padding: 5px 20px;
    }
 
    .accordion-button__text {
-    font-size: 9px;
+    font-size: 16px;
    }
 
    .inMotion__img {
-    width: 250px;
+    width: 300px;
    }
 
 
@@ -919,11 +959,11 @@
    }
 
    .wrapp-inMotion__title-text {
-    font-size: 19px;
+    font-size: 20px;
    }
     
    .wrapp-inMotion__title-info {
-    font-size: 10px;
+    font-size: 16px;
     padding: 11px 0 0 0 ;
    }
 
@@ -932,23 +972,23 @@
    }
 
    .slider-text {
-    font-size: 11px;
+    font-size: 16px;
    }
 
    .slider-info {
-    font-size: 11px;
+    font-size: 16px;
    }
 
    .slider-title {
-    padding: 50px 0;
+    padding: 15px 0;
    }
 
    .slider-button {
-    padding: 0px 20px;
+    padding: 5px 20px;
    }
 
    .slider-button-text {
-    font-size: 8px;
+    font-size: 14px;
    }
 
    .wrapp-bottom_sliders {
@@ -956,7 +996,7 @@
    }
     
    .bottom-sliders_title {
-    font-size: 11px;
+    font-size: 20px;
    }
 
    .bottom__img {
@@ -965,10 +1005,10 @@
    } 
 
    .bionik-content-firstBlock-title-link {
-    font-size: 6px;
+    font-size: 9px;
    }
    .bionik-content-firstBlock-text-link {
-    font-size: 6px;
+    font-size: 9px;
    }
 
    .thirdBlock-logo {
@@ -984,19 +1024,19 @@
    }
 
    .bionik-content-thirdBlock-title-link {
-    font-size: 8px;
+    font-size: 10px;
    }
 
    .bionik-content-thirdBlock-text-link {
-    font-size: 8px;
+    font-size: 10px;
    }
 
    .bionik-content-thirdBlock-info {
-    font-size: 8px;
+    font-size: 9px;
    }
 
    .footer-bottom__text {
-    font-size: 7px;
+    font-size: 9px;
    }
 
    .footer-bottom__item  {
@@ -1004,8 +1044,8 @@
    }
 
     .bottom__item-link-svg {
-     width: 10px;
-     height: 10px;
+     width: 15px;
+     height: 15px;
     }
 
 
